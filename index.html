@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del Ahorcado</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <div id="contenedor-juego">
+        <h1>Juego del Ahorcado</h1>
+        <div id="contenedor-palabra"></div>
+        <div id="contenedor-letras"></div>
+        <p>Intentos restantes: <span id="intentos"></span></p>
+        <button id="boton-reiniciar">Reiniciar Juego</button>
+        <div>
+            <p>Rondas ganadas: <span id="ganadas"></span></p>
+            <p>Rondas perdidas: <span id="perdidas"></span></p>
+            <button id="boton-reiniciar-contadores">Reiniciar Contadores</button>
+        </div>
+    </div>
+    <div id="modal">
+        <div class="contenido-modal">
+            <p id="mensaje-modal"></p>
+            <img id="imagen-modal" src="" alt="Emoji">
+            <button id="boton-cerrar-modal">Cerrar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
